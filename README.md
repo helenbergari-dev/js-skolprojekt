@@ -1,16 +1,8 @@
-# React + Vite
+Detta är ett skolprojekt där uppgiften har varit att skapa en komplett hemsida byggd i React med Vite, baserat på en given designfil. Projektet består av flera olika sidor och sektioner där huvudfokus ligger på att skapa återanvändningsbara React-komponenter som kan användas på flera olika sidor. Hemsidan är uppbyggd av tre huvudsidor: Home, About Us och Contact Us, och all navigering fungerar med hjälp av React Router.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Designen i projektet tar utgångspunkt i figma-filen som tillhandahållits, där målet har varit att efterlikna utseendet så noggrant som möjligt. Vissa mindre avvikelser kan förekomma, vilket är tillåtet enligt instruktionerna, då figma-filen inte alltid exakt matchar verkliga mått i webbläsaren. Under arbetets gång har det även varit viktigt att strukturera upp layouten korrekt, använda återanvändningsbara komponenter och följa de definierade hover-effekterna och valideringsreglerna som visats i designens komponentsektion.
 
-Currently, two official plugins are available:
+En del av uppgiften har varit att använda ett Web API för att ersätta statiskt innehåll med data hämtad från servern. I detta projekt hämtas innehållet till sektionerna Testimonials, Latest Blogs och FAQs från web apiet på adressen https://win25-jsf-assignment.azurewebsites.net. FAQ-sektionen innehåller en fungerande accordion som gör att användaren kan växla mellan olika frågor, där endast en fråga visas öppen åt gången. Kontaktformuläret följer instruktionerna i uppgiften och validerar endast de fält som är markerade med *, vilket innebär att namn, e-post och meddelande måste vara korrekt ifyllda innan formuläret skickas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projektet är versionshanterat med Git och uppladdat till GitHub enligt kraven. Git har använts för att hålla ordning på förändringar i projektet och för att uppfylla instruktionen om att använda Git/GitHub i inlämningen.
+Under utvecklingsprocessen har AI använts som bollplank för att få hjälp med felsökning och strukturering av kod. All slutlig kod är manuellt anpassad, förstådd och granskad av mig själv, vilket följer riktlinjerna om hur AI får användas i denna uppgift. 
